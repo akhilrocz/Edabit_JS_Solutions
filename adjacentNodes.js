@@ -7,7 +7,7 @@ function areAdjacent(matrix, node1, node2) {
   ) {
     return false;
   }
-  return matrix[node1][node2] === 1 || matrix[node2][node1] === 1;
+  return matrix[node1][node2] === 1 || matrix[node2][node1] === 1;  //edge exist
 }
 console.log(
   areAdjacent(
